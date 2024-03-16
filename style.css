@@ -50,6 +50,7 @@ header{
     grid-template-columns: .2fr 2fr repeat(3, .2fr);
     align-items: center;
 }
+
 .svg{
     width: 20px;
     height: 20px;
@@ -87,6 +88,8 @@ header{
 #profile-picture{
     width: 50px;
     height: 50px;
+    border: 1.5px solid black;
+    border-radius: 50%;
 }
 aside{
     height: 95vh;
@@ -105,12 +108,14 @@ aside > h1{
 }
 .dashboard-title{
     display: flex;
+    align-items: center;
 }
 .title-tilt{
     color: red;
     text-shadow: 4px 4px #f2ff00;
     transform: rotate(5deg);
 }
+.sidebar-assets-1,
 .sidebar-assets{
     display: flex;
     padding: .5em;
@@ -119,8 +124,11 @@ aside > h1{
     border: 1.5px solid black;
     align-items: center;
 }
+.sidebar-assets-1{
+    background-color: #f3ca7a;
+}
 .sidebar-assets:hover{
-    background-color: #ddd6d6;
+    background-color: #f3ca7a;
     
 }
 .sidebar-text{
@@ -179,8 +187,10 @@ main::-webkit-scrollbar {
 .icon-1,
 .icon-2,
 .icon-3{
+    width: 30px;
+    height: 30px;
     padding: 2px;
-    border: 1px solid black;
+    border: 1.5px solid black;
 }
 .title{
     background-color: #abf2eb;
