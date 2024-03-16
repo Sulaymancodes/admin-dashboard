@@ -226,9 +226,7 @@ hr {
 .trending-profile > div{
     margin-left: 5px;
 }
-.trending-profile:hover{
-    background-color: #ddd6d6;
-}
+
 .trending-profile-name{
     color: #5a5757;
 }
