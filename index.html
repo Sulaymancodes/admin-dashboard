@@ -9,46 +9,158 @@
 <body>
     <div class="main-container">
         <header>
-            <div class="bar">
+            <div class="search-bar">
                 <img class="svg" src="svgs/magnify.svg" alt="search-icon">
-                <input type="search" name="search" placeholder="Search...">
+                <input class="search" type="search" name="search" placeholder="Search...">
                 <img class="svg" src="svgs/bell-ring-outline.svg" alt="bell-icon">
-
+                <img id="profile-picture" src="svgs/spider-svgrepo-com.svg" alt="Spiderman profile picture">
+                <p>Peter Parker</p>
             </div>
             <div class="notification-bar">
-
+                <img id="profile-picture" src="svgs/spider-svgrepo-com.svg" alt="Spiderman profile picture">
+                <div>
+                    <p>Hi there,</p>
+                    <h4>Peter Parker(@Spidey_001)</h4>
+                </div>
+                
+                <div class="btn btn-1">
+                    <p class="bold">New</p>
+                </div>
+                <div class="btn btn-2">
+                    <p class="bold">Upload</p>
+                </div>
+                <div class="btn btn-3">
+                    <p class="bold">Share</p>
+                </div>
             </div>
         </header>
-        <aside></aside>
+        <aside class="padding">
+            <div class="dashboard-title">
+                <h1 class="aside-title">Dash<h1 class="title-tilt">board</h1></h1>
+            </div>
+            <div>
+                <div class="sidebar-assets">
+                    <img class="svg" src="svgs/home.svg" alt="home-icon">
+                    <p class="sidebar-text">Home</p>
+                </div>
+                <div class="sidebar-assets">
+                    <img class="svg" src="svgs/account.svg" alt="home-icon">
+                    <p class="sidebar-text">Profile</p>
+                </div>
+                <div class="sidebar-assets">
+                    <img class="svg" src="svgs/message-reply.svg" alt="home-icon">
+                    <p class="sidebar-text">Messages</p>
+                </div>
+                <div class="sidebar-assets">
+                    <img class="svg" src="svgs/clock-time-three.svg" alt="home-icon">
+                    <p class="sidebar-text">History</p>
+                </div>
+                <div class="sidebar-assets">
+                    <img class="svg" src="svgs/calendar-check-outline.svg" alt="home-icon">
+                    <p class="sidebar-text">Task</p>
+                </div>
+                <div class="sidebar-assets">
+                    <img class="svg" src="svgs/account-group.svg" alt="home-icon">
+                    <p class="sidebar-text">Communities</p>
+                </div>
+            </div>
+            <div>
+                <div class="sidebar-assets">
+                    <img class="svg" src="svgs/cog.svg" alt="home-icon">
+                    <p class="sidebar-text">Settings</p>
+                </div>
+                <div class="sidebar-assets">
+                    <img class="svg" src="svgs/help-box.svg" alt="home-icon">
+                    <p class="sidebar-text">Support</p>
+                </div>
+                <div class="sidebar-assets">
+                    <img class="svg" src="svgs/shield-check.svg" alt="home-icon">
+                    <p class="sidebar-text">Privacy</p>
+                </div>
+            </div>
+        </aside>
         <main>
             <div id="projects-container">
-                <div class="project-title">
-                    <p>Projects</p>
+                <div id="project-title">
+                    <p class="bold">Projects</p>
                 </div>
                 <div class="projects-div">
-                    <div class="projects">
-                        <h3>Cool Project</h3>
-                        <p>cjndkadnkand ajduusasuysy</p>
+                    <div class="projects shadow">
+                        <p class="padding title border bold">Etch-a-Sketch</p>
+                        <p class="padding">
+                            Users can draw on a virtual canvas 
+                            using arrow keys or touch controls, replicating 
+                            the nostalgic experience of the classic toy in a
+                            modern digital format
+                        </p>
+                        <div class="project-icons">
+                            <img class="svg icon-1 shadow" src="svgs/star-plus-outline.svg" alt="star-icon">
+                            <img class="svg icon-2 shadow" src="svgs/eye-plus-outline.svg" alt="outline-icon">
+                            <img class="svg icon-3 shadow" src="svgs/link.svg" alt="share-icon">
+                        </div>
                     </div>
-                    <div class="projects">
-                        <h3>Cool Project</h3>
-                        <p>cjndkadnkand ajduusasuysy</p>
+                    <div class="projects shadow">
+                        <p class="padding title border bold">Rock-Paper-Scissors</p>
+                        <p class="padding">Players face off against the computer, 
+                            choosing between rock, paper, or scissors. The winner
+                            is determined by the classic rules: rock crushes scissors,
+                             scissors cuts paper, and paper covers rock
+                        </p>
+                        <div class="project-icons">
+                            <img class="svg icon-1 shadow" src="svgs/star-plus-outline.svg" alt="star-icon">
+                            <img class="svg icon-2 shadow" src="svgs/eye-plus-outline.svg" alt="outline-icon">
+                            <img class="svg icon-3 shadow" src="svgs/link.svg" alt="share-icon">
+                        </div>
                     </div>
-                    <div class="projects">
-                        <h3>Cool Project</h3>
-                        <p>cjndkadnkand ajduusasuysy</p>
+                    <div class="projects shadow">
+                        <p class="padding title border bold">Calculator</p>
+                        <p class="padding">Sleek calculator interface, allowing 
+                            users to perform basic arithmetic operations like 
+                            addition, subtraction, multiplication, and division
+                        </p>
+                        <div class="project-icons">
+                            <img class="svg icon-1 shadow" src="svgs/star-plus-outline.svg" alt="star-icon">
+                            <img class="svg icon-2 shadow" src="svgs/eye-plus-outline.svg" alt="outline-icon">
+                            <img class="svg icon-3 shadow" src="svgs/link.svg" alt="share-icon">
+                        </div>
                     </div>
-                    <div class="projects">
-                        <h3>Cool Project</h3>
-                        <p>cjndkadnkand ajduusasuysy</p>
+                    <div class="projects shadow">
+                        <p class="padding title border bold">Sign-Up Page</p>
+                        <p class="padding">Intuitive signup page, providing users 
+                            s/link.svgn experience. Include
+                            input fields for essential information like first name,
+                             last name, email, phone number, and password
+                        </p>
+                        <div class="project-icons">
+                            <img class="svg icon-1 shadow" src="svgs/star-plus-outline.svg" alt="star-icon">
+                            <img class="svg icon-2 shadow" src="svgs/eye-plus-outline.svg" alt="outline-icon">
+                            <img class="svg icon-3 shadow" src="svgs/link.svg" alt="share-icon">
+                        </div>
                     </div>
-                    <div class="projects">
-                        <h3>Cool Project</h3>
-                        <p>cjndkadnkand ajduusasuysy</p>
+                    <div class="projects shadow">
+                        <p class="padding title border bold">Recipes</p>
+                        <p class="padding">interactive recipe display, showcasing a variety 
+                            of dishes with enticing images and detailed instructions. 
+                            Users can browse through recipes, filter by categories or 
+                            dietary preferences, and view nutritional information
+                        </p>
+                        <div class="project-icons">
+                            <img class="svg icon-1 shadow" src="svgs/star-plus-outline.svg" alt="star-icon">
+                            <img class="svg icon-2 shadow" src="svgs/eye-plus-outline.svg" alt="outline-icon">
+                            <img class="svg icon-3 shadow" src="svgs/link.svg" alt="share-icon">
+                        </div>
                     </div>
-                    <div class="projects">
-                        <h3>Cool Project</h3>
-                        <p>cjndkadnkand ajduusasuysy</p>
+                    <div class="projects shadow">
+                        <p class="padding title border bold">Dashboard</p>
+                        <p class="padding">Developed a cutting-edge dashboard interface
+                             with a bold Neubrutalism design aesthetic, featuring 
+                             minimalist elements and raw aesthetics
+                        </p>
+                        <div class="project-icons">
+                            <img class="svg icon-1 shadow" src="svgs/star-plus-outline.svg" alt="star-icon">
+                            <img class="svg icon-2 shadow" src="svgs/eye-plus-outline.svg" alt="outline-icon">
+                            <img class="svg icon-3 shadow" src="svgs/link.svg" alt="share-icon">
+                        </div>
                     </div>
                 </div>
                 
@@ -56,30 +168,63 @@
             <div id="announcements">
                 <div class="announcement-con">
                     <div class="announcement-title">
-                        <p>Announcement</p>
+                        <p class="bold">Announcements</p>
                     </div>
                     <div class="announcement-div">
-                        <h3>site maintainains</h3>
-                        <p>hdjklahdjasjdadjasldsjdnsdsjdnjsnjs</p>
+                        <p class="bold padding">Site Maintenance</p>
+                        <p class="padding">Site maintenance involves ongoing tasks 
+                            to keep a website functional, secure, and up-to-date, 
+                            ensuring optimal performance and user experience
+                        </p>
                         <hr>
-                        <h3>site maintainains</h3>
-                        <p>hdjklahdjasjdadjasldsjdnsdsjdnjsnjs</p>
+                        <p class="bold padding">Community Share Day</p>
+                        <p class="padding">Community share day encourages community 
+                            members to share ideas, resources, and experiences, 
+                            promoting collaboration and mutual support.
+                        </p>
                         <hr>
-                        <h3>site maintainains</h3>
-                        <p>hdjklahdjasjdadjasldsjdnsdsjdnjsnjs</p>
-                        <hr>
+                        <p class="bold padding">Update Privacy Policy</p>
+                        <p class="padding">Revise privacy policy: Keep policies up-to-date 
+                            with laws and practices for transparent data handling.
+                        </p>
                     </div>
                 </div>
                 <div class="trending-con">
                     <div class="trending-title">
-                        <p>Trending</p>
+                        <p class="bold">Trending</p>
                     </div>
                     <div class="trending-div">
-                        <h2>Trending</h2>
-                        <p>Spiderman</p>
-                        <p>Batman</p>
-                        <p>Superman</p>
-                        <p>IronMan</p>
+                        <div class="trending-profile padding">
+                            <img id="profile-picture" src="svgs/avatar-batman-comics-svgrepo-com.svg" alt="">
+                            <div>
+                                <p>@batman</p>
+                                <p class="trending-profile-name">Billionaire Superhero</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="trending-profile padding">
+                            <img id="profile-picture" src="svgs/superheroe-svgrepo-com (1).svg" alt="">
+                            <div>
+                                <p>@Superman</p>
+                                <p class="trending-profile-name">Kryptonite</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="trending-profile padding">
+                            <img id="profile-picture" src="svgs/superheroe-svgrepo-com.svg" alt="">
+                            <div>
+                                <p>@Mrs_wonder</p>
+                                <p class="trending-profile-name">Amazonian blue blood</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="trending-profile padding">
+                            <img id="profile-picture" src="svgs/flash-circle-svgrepo-com.svg" alt="">
+                            <div>
+                                <p>@ya_boy_berry</p>
+                                <p class="trending-profile-name">Fastest man alive</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 
